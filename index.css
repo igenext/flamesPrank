@@ -1,0 +1,80 @@
+#myDiv{
+    left      : 50%;
+    top       : 50%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+    background: white;
+    border-radius: 20px;
+    height: 290px;
+    width: 270px
+}
+
+input{
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+body{
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#name{
+    margin:35px 10px 10px 20px;
+}
+
+#cname{
+    margin:25px 10px 10px 20px;
+}
+
+#myButton{
+    margin: 20px 10px 10px 50px;
+}
+
+
+button{
+    width: 75px;
+    height: 33px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+h1{
+    font-size:50px;
+    text-align:center; 
+    line-height:1.5em;
+    padding-bottom:0px; 
+    font-family:"Playfair Display", serif;
+    text-transform:uppercase;
+    letter-spacing: 2px; 
+    color:#111;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
